@@ -1,0 +1,235 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+    padding: 40px;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input[type="email"], input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: 20px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+input[type="email"]:focus, input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.modal-content h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.modal-content input[type="text"] {
+    margin: 10px 0;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+#courseSearch {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #0056b3;
+}
+
+#courseResults {
+    margin-top: 20px;
+}
+
+.course-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.course-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.course-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.close-modal {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#courseDetails ul {
+    padding-left: 20px;
+}
+
+#courseDetails li {
+    margin-bottom: 5px;
+}
+
+.contact-info, .contact-form {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-info h2, .contact-form h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.contact-info a, .contact-form a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover, .contact-form a:hover {
+    text-decoration: underline;
+}
+
+#contactFormLink {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Ensure all text in the container is centered */
+.container {
+    text-align: center;
+}
+
+/* Override any potential left-alignment for specific elements */
+.container h1,
+.container p,
+.container div {
+    text-align: center;
+}

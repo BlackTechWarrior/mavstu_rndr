@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAV-STU Project</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>MAV-STU Project</h1>
+
+        <a href="templates/course-catalog.html" id="courseCatalogLink" class="button locked-link">Course Catalog</a> ||
+        <a href="templates/contact.html" id="contactLink" class="button locked-link">Contact/Upload</a>
+
+        <p>Collective efforts in creating a place with all things Mavericks.<br>
+        For Mavericks. By Mavericks.</p>
+
+        <p>Here you'll find resources, connections, tools and much more.<br>
+        Ultimately, you'll even be able to contribute to it.</p>
+
+        <p>Sign up with your "mavs.uta.edu" email to be a part of the beginning.</p>
+        <button type="button" onclick="localStorage.clear(); location.reload();">Reset Sign Up</button>
+        
+        <form id="signup-form">
+            <input type="email" id="email" placeholder="Enter your @mavs.uta.edu email" required>
+            <button type="submit">Sign Up</button>
+            
+        </form>
+
+        <div id="otpSection" style="display: none;">
+            <input type="text" id="otp" placeholder="Enter OTP" required>
+            <button id="verifyOTP">Verify OTP</button>
+        </div>
+
+        <div id="message"></div>
+    </div>
+
+    <script src="static/script.js"></script>
+</body>
+</html>

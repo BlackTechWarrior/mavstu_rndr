@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAV-STU Course Catalog</title>
+    
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MAV-STU Course Catalog</h1>
+        <a href="../index.html" class="button">Mavstu Home</a> ||
+        <a href="contact.html" class="button">Contact/Upload</a>
+        <p>
+            Search for courses offered at UTA.<br><br>
+            Find the course you're looking for and get all the details you need.<br><br>
+            You can search the whole course list by typing <i>"all"</i> or <i>"list"</i> in the search bar.
+        </p>
+        <div class="search-container">
+            <input type="text" id="courseSearch" placeholder="Search course...">
+            <button id="searchButton">Search</button>
+        </div>
+        <div id="courseResults"></div>
+    </div>
+    <script src="../static/courses.js"></script>
+    <script src="../static/course-catalog.js"></script>
+    <script src="../static/course-details.js"></script>
+</body>
+</html>

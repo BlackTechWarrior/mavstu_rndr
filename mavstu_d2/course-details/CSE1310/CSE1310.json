@@ -1,0 +1,24 @@
+{
+    "prerequisites": [
+    "C or better in MATH 1302/ MATH 1402",
+    "Subsequent enrollment in MATH 1421/ MATH 1426/ MATH 2425/ MATH 2326/ MATH 3330/ HONR-SC 1426/ HONR-SC 2425 or qualifying ALEKS PPL score",
+    "C or better or current enrollment in ENGL 1301 and UNIV 1131"
+    ],
+    "tccnEquivalent": "COSC 1320",
+    "utaLink": "https://catalog.uta.edu/coursedescriptions/cse/",
+    "resources": [
+    
+        { "type": "Youtube Playlist", "name": "Prof. Darin Brezeale Youtube C playlist", "link": "https://youtube.com/playlist?list=PLcb47MKbeHkcBhhAdLDJObMibJsfb8cz4&feature=shared" },
+        { "type": "textbook pdf", "name": "Modern C for Absolute Begineers Textbook pdf", "link": "Modern C for Absolute Begineers pdf - Slobodan Dmitrović.pdf" }
+    ],
+    "reviews": [
+        { "source": "Reddit", "content": "Mixed reviews, advice for most novice coders is to learn the fundamentals and not stretch themselves too thin ie. understand linux etc"},
+        { "source": "RateMyProfessors", "content": "Either take it with Donna French or Qudah."}
+    ],
+    "syllabus": "This course covers basic programming concepts in C",
+    "weeklyTopics": [
+        "Week 1: Introduction to Computing",
+        "Week 2: Basic Programming Concepts",
+        "Week 3: Control Structures"
+    ]
+}
